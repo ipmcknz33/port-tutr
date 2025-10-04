@@ -33,7 +33,6 @@ li {
 .row {
     width: 100%;
     max-width: 800px;
-    mar
 }
 /* NAVIGATION BAR */
 
@@ -83,8 +82,16 @@ nav {
     display: flex;
     flex-direction: column;
 }
+
+.about-me__picture--mask {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
 .about-me__picture{
-    width: 300px;
+   width: 100%;
 }
 
 .about-me__info--container {
